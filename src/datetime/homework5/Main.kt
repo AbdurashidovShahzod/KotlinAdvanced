@@ -5,10 +5,7 @@ import java.time.LocalTime
 import java.util.*
 
 fun main(args: Array<String>) {
-    /*
-    TV dasturlar tizimini tashkil etadigan tizim yaratıng.
-    Bir vaqt kiritilganda o'sha vaqtda qaysi tv dastur bo'layotganligini aniqlang.
-     */
+    
     val scanner = Scanner(System.`in`)
     val listTv = arrayListOf<TvProgram>()
     val localTime = LocalTime.of(6, 0)
